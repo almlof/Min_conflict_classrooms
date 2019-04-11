@@ -1,0 +1,15 @@
+﻿  pch.cpp
+  Lab2_AI.cpp
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2143: syntax error: missing ')' before 'const'
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2143: syntax error: missing ';' before 'const'
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2079: 'string' uses undefined class 'classes'
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2059: syntax error: ')'
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2143: syntax error: missing ';' before ':'
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2059: syntax error: ':'
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2373: 'name': redefinition; different type modifiers
+  c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): note: see declaration of 'name'
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2059: syntax error: '{'
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2143: syntax error: missing ';' before '{'
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(18): error C2447: '{': missing function header (old-style formal list?)
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\lab2_ai\lab2_ai.cpp(19): error C2447: '{': missing function header (old-style formal list?)
