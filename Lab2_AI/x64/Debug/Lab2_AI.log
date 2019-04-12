@@ -1,41 +1,19 @@
 ﻿  Lab2_AI.cpp
-c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory0(879): error C3074: an array cannot be initialized with a parenthesized initializer
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(900): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const std::string(&)[8]>(_Alloc &,_Objty (*const ),const std::string (&)[8])' being compiled
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(56): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
           with
           [
-              _Alloc=std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>> [8]>,
-              _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>> [8],
-              _Objty=std::basic_string<char,std::char_traits<char>,std::allocator<char>> [8]
+              _Ty=int
           ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(902): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const std::string(&)[8]>(_Alloc &,_Objty (*const ),const std::string (&)[8])' being compiled
+  c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(64): note: see reference to function template instantiation 'Iter select_randomly<Iter,std::mt19937>(Iter,Iter,RandomGenerator &)' being compiled
           with
           [
-              _Alloc=std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char>> [8]>,
-              _Ty=std::basic_string<char,std::char_traits<char>,std::allocator<char>> [8],
-              _Objty=std::basic_string<char,std::char_traits<char>,std::allocator<char>> [8]
+              Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<conflictPoint>>>,
+              RandomGenerator=std::mt19937
           ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(916): note: see reference to function template instantiation 'void std::vector<std::string [8],std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<const std::string(&)[8]>(const std::string (&)[8])' being compiled
+  c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(175): note: see reference to function template instantiation 'Iter select_randomly<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(Iter,Iter)' being compiled
           with
           [
-              _Ty=std::string [8]
+              Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<conflictPoint>>>,
+              _Ty=conflictPoint
           ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(932): note: see reference to function template instantiation 'void std::vector<std::string [8],std::allocator<_Ty>>::emplace_back<const std::string(&)[8]>(const std::string (&)[8])' being compiled
-          with
-          [
-              _Ty=std::string [8]
-          ]
-  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\vector(931): note: while compiling class template member function 'void std::vector<std::string [8],std::allocator<_Ty>>::push_back(const _Ty (&))'
-          with
-          [
-              _Ty=std::string [8]
-          ]
-  c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(201): note: see reference to function template instantiation 'void std::vector<std::string [8],std::allocator<_Ty>>::push_back(const _Ty (&))' being compiled
-          with
-          [
-              _Ty=std::string [8]
-          ]
-  c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(34): note: see reference to class template instantiation 'std::vector<std::string [8],std::allocator<_Ty>>' being compiled
-          with
-          [
-              _Ty=std::string [8]
-          ]
+  Lab2_AI.vcxproj -> C:\Users\mattias\Documents\Visual Studio 2017\Projects\Lab2_AI\Min_conflict_classrooms\x64\Debug\Lab2_AI.exe
