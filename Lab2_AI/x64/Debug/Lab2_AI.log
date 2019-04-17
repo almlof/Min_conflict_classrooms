@@ -1,16 +1,16 @@
 ﻿  Lab2_AI.cpp
-c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(56): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
+c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(75): warning C4244: 'argument': conversion from '__int64' to '_Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-  c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(64): note: see reference to function template instantiation 'Iter select_randomly<Iter,std::mt19937>(Iter,Iter,RandomGenerator &)' being compiled
+  c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(83): note: see reference to function template instantiation 'Iter select_randomly<Iter,std::mt19937>(Iter,Iter,RandomGenerator &)' being compiled
           with
           [
               Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<conflictPoint>>>,
               RandomGenerator=std::mt19937
           ]
-  c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(175): note: see reference to function template instantiation 'Iter select_randomly<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(Iter,Iter)' being compiled
+  c:\users\mattias\documents\visual studio 2017\projects\lab2_ai\min_conflict_classrooms\lab2_ai\lab2_ai.cpp(198): note: see reference to function template instantiation 'Iter select_randomly<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(Iter,Iter)' being compiled
           with
           [
               Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<conflictPoint>>>,
